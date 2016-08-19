@@ -15,6 +15,10 @@
 		929207301D66A4A600909533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9292072E1D66A4A600909533 /* LaunchScreen.storyboard */; };
 		9292073B1D66A4A600909533 /* XibLayerToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9292073A1D66A4A600909533 /* XibLayerToolTests.m */; };
 		929207461D66A4A600909533 /* XibLayerToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 929207451D66A4A600909533 /* XibLayerToolUITests.m */; };
+		929207541D66A4B900909533 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 929207531D66A4B900909533 /* Info.plist */; };
+		929207581D66A4C600909533 /* UIView+XibTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 929207571D66A4C600909533 /* UIView+XibTools.m */; };
+		9292075F1D66A86A00909533 /* CustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9292075E1D66A86A00909533 /* CustomerButton.m */; };
+		929207611D66A9FC00909533 /* DemoScreenShot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 929207601D66A9FC00909533 /* DemoScreenShot.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +48,19 @@
 		9292072A1D66A4A600909533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9292072C1D66A4A600909533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9292072F1D66A4A600909533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		929207311D66A4A600909533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929207361D66A4A600909533 /* XibLayerToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibLayerToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9292073A1D66A4A600909533 /* XibLayerToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibLayerToolTests.m; sourceTree = "<group>"; };
 		9292073C1D66A4A600909533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929207411D66A4A600909533 /* XibLayerToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibLayerToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		929207451D66A4A600909533 /* XibLayerToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibLayerToolUITests.m; sourceTree = "<group>"; };
 		929207471D66A4A600909533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929207531D66A4B900909533 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929207561D66A4C600909533 /* UIView+XibTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XibTools.h"; sourceTree = "<group>"; };
+		929207571D66A4C600909533 /* UIView+XibTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XibTools.m"; sourceTree = "<group>"; };
+		929207591D66A4F200909533 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		9292075D1D66A86A00909533 /* CustomerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerButton.h; sourceTree = "<group>"; };
+		9292075E1D66A86A00909533 /* CustomerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerButton.m; sourceTree = "<group>"; };
+		929207601D66A9FC00909533 /* DemoScreenShot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DemoScreenShot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,16 @@
 		9292071F1D66A4A600909533 /* XibLayerTool */ = {
 			isa = PBXGroup;
 			children = (
+				929207551D66A4C600909533 /* LayerTool */,
 				929207231D66A4A600909533 /* AppDelegate.h */,
 				929207241D66A4A600909533 /* AppDelegate.m */,
 				929207261D66A4A600909533 /* ViewController.h */,
 				929207271D66A4A600909533 /* ViewController.m */,
+				9292075D1D66A86A00909533 /* CustomerButton.h */,
+				9292075E1D66A86A00909533 /* CustomerButton.m */,
 				929207291D66A4A600909533 /* Main.storyboard */,
 				9292072C1D66A4A600909533 /* Assets.xcassets */,
 				9292072E1D66A4A600909533 /* LaunchScreen.storyboard */,
-				929207311D66A4A600909533 /* Info.plist */,
 				929207201D66A4A600909533 /* Supporting Files */,
 			);
 			path = XibLayerTool;
@@ -117,6 +129,9 @@
 		929207201D66A4A600909533 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				929207601D66A9FC00909533 /* DemoScreenShot.gif */,
+				929207531D66A4B900909533 /* Info.plist */,
+				929207591D66A4F200909533 /* PrefixHeader.h */,
 				929207211D66A4A600909533 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +153,15 @@
 				929207471D66A4A600909533 /* Info.plist */,
 			);
 			path = XibLayerToolUITests;
+			sourceTree = "<group>";
+		};
+		929207551D66A4C600909533 /* LayerTool */ = {
+			isa = PBXGroup;
+			children = (
+				929207561D66A4C600909533 /* UIView+XibTools.h */,
+				929207571D66A4C600909533 /* UIView+XibTools.m */,
+			);
+			path = LayerTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929207541D66A4B900909533 /* Info.plist in Resources */,
 				929207301D66A4A600909533 /* LaunchScreen.storyboard in Resources */,
 				9292072D1D66A4A600909533 /* Assets.xcassets in Resources */,
+				929207611D66A9FC00909533 /* DemoScreenShot.gif in Resources */,
 				9292072B1D66A4A600909533 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929207581D66A4C600909533 /* UIView+XibTools.m in Sources */,
 				929207281D66A4A600909533 /* ViewController.m in Sources */,
 				929207251D66A4A600909533 /* AppDelegate.m in Sources */,
 				929207221D66A4A600909533 /* main.m in Sources */,
+				9292075F1D66A86A00909533 /* CustomerButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XibLayerTool/PrefixHeader.h";
 				INFOPLIST_FILE = XibLayerTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsc.XibLayerTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +456,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XibLayerTool/PrefixHeader.h";
 				INFOPLIST_FILE = XibLayerTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dsc.XibLayerTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +530,7 @@
 				9292074C1D66A4A600909533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9292074D1D66A4A600909533 /* Build configuration list for PBXNativeTarget "XibLayerToolTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +539,7 @@
 				9292074F1D66A4A600909533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		929207501D66A4A600909533 /* Build configuration list for PBXNativeTarget "XibLayerToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +548,7 @@
 				929207521D66A4A600909533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
